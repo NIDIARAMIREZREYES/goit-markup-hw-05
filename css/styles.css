@@ -125,8 +125,9 @@ nav ul li {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-   url("../images/people.jpg");
+    url("../images/people.jpg");
 }
+
 .hero-container {
   display: flex;
   justify-content: center;
@@ -173,25 +174,26 @@ nav ul li {
   width: 100vw;
   height: 100vh;
   opacity: 1;
-  transition: opacity .2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1;
 }
 
 .backdrop.is-hidden {
-
   pointer-events: none;
   opacity: 0;
 }
 
 .modal-form {
-  background-color: #FFFFFF;
-  ;
+  background-color: #ffffff;
   width: 528px;
   height: 581px;
   opacity: 1;
-  transition: transform cubic-bezier(0.4, 0, 0.2, 1) .4s;
-  opacity: transform cubic-bezier(0.4, 0, 0.2, 1) .1s;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+  opacity: transform cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
   transform: translateY(0);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  border-radius: 4px;
 }
 
 .modal-form.is-hidden {
@@ -204,11 +206,10 @@ nav ul li {
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: transparent;
   border: none;
+  cursor: pointer ;
   font-size: 16px;
-  cursor: pointer;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
@@ -488,10 +489,10 @@ address {
 
 .picture-section {
   display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    padding: 20px;
-    padding-bottom: 90px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  padding-bottom: 90px;
 }
 .picture {
   padding-right: 24px;
@@ -502,7 +503,6 @@ address {
   box-sizing: border-box;
   background: #ffffff;
   border: 1px solid #eeeeee;
-  
 }
 .picture-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -513,17 +513,17 @@ address {
 }
 
 .text-image {
-  position:absolute;
+  position: absolute;
   top: 0;
   height: 294px;
   width: 370px;
-  background:rgba(33, 150, 243, 0.9); 
+  background: rgba(33, 150, 243, 0.9);
   font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #FFFFFF;
-    padding: 63px 24px;
-    transform: translateY(105%);
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 63px 24px;
+  transform: translateY(105%);
 }
 
 .picture-card:hover .text-image {
@@ -536,4 +536,3 @@ address {
   position: relative;
   overflow: hidden;
 }
-
